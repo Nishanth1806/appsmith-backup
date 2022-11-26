@@ -1,0 +1,25 @@
+{
+  "unpublishedCollection": {
+    "name": "extract_lesson_id",
+    "pageId": "course tracker",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t\tvar lesid = Number(url.text.split('/').slice(-1));\nconsole.log(Number(url.text.split('/').slice(-1)))\t;\n\t\t \n\t\treturn lesid;\n\t\t\n\t\t\t\t\t\t}\n\t\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "course tracker_extract_lesson_id",
+  "deleted": false,
+  "gitSyncId": "634e7e92ce51f22a5bc91b22_6350ea32e15bd110fc70538e"
+}

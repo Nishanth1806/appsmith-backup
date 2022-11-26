@@ -1,0 +1,25 @@
+{
+  "unpublishedCollection": {
+    "name": "navigate_to_url",
+    "pageId": "Release Schedule",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t get_courseid.run();\n\t\tvar d=get_courseid.data.map(u=>u.ly_course_id);\n\t\tconsole.log(d);\n\t\tvar url = encodeURIComponent('https://learnbasics.learnyst.com/admin/products/course-builder/'+get_courseid.data.map(u=>u.ly_course_id).join())\n\t\tnavigateTo('https://learnbasics.learnyst.com/admin/products/course-builder/url','NEW_WINDOW')\n\t\t\tconsole.log(url);\n\t\t//var url = 'https://learnbasics.learnyst.com/admin/products/course-builder/;\n\t\t//navigateTo(url,'NEW_WINDOW');\n\t\t//window.open(url, '_blank').focus();\n//\twindow.open(url, \"_blank\");\n\t},\n\tmyFun2: async () => {\n\t\t//use async-await or promises\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Release Schedule_navigate_to_url",
+  "deleted": false,
+  "gitSyncId": "634e7e92ce51f22a5bc91b22_63771342c4406624f7ca96bb"
+}

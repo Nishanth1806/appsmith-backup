@@ -1,0 +1,25 @@
+{
+  "unpublishedCollection": {
+    "name": "extract_lesson_id",
+    "pageId": "Release Schedule",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t\tvar lesid = Number(modal_url.text.split('/').slice(-1));\nconsole.log(Number(modal_url.text.split('/').slice(-1)))\t;\n\t\t \n\t\treturn lesid;\n\t\t\n\t\t\t\t\t\t}\n\t\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Release Schedule_extract_lesson_id",
+  "deleted": false,
+  "gitSyncId": "634e7e92ce51f22a5bc91b22_6368b6cf03193515321c38cb"
+}

@@ -1,0 +1,25 @@
+{
+  "unpublishedCollection": {
+    "name": "reset_chap",
+    "pageId": "theory update",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {{{resetWidget(\"chap\",true)}}\n\t\t//write code here\n\t},\n\tmyFun2: async () => {\n\t\t//use async-await or promises\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "theory update_reset_chap",
+  "deleted": false,
+  "gitSyncId": "634e7e92ce51f22a5bc91b22_6358d3a1561dcd1ffe6d1897"
+}

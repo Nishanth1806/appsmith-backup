@@ -1,0 +1,25 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject2",
+    "pageId": "Release Schedule",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\n\t\n\n\tvar arr = get_test_list.data;\n\tvar result = arr.filter((itr)=>itr.school_id === school.selectedOptionValue && itr.subject_id === subject.selectedOptionValue);\n\t\t//navigateTo('https://learnbasics.learnyst.com/admin/products/course-builder/'+get_courseid.data.map(u=>u.ly_course_id),'NEW_WINDOW')\n\nreturn(result);\n\n                              }\n\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Release Schedule_JSObject2",
+  "deleted": false,
+  "gitSyncId": "634e7e92ce51f22a5bc91b22_6376082ae513ba7181094e07"
+}

@@ -1,0 +1,25 @@
+{
+  "unpublishedCollection": {
+    "name": "start_date",
+    "pageId": "course tracker",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t\tconst d = new Date();\nvar curdate = d.getUTCDate(d.getYear(),d.getMonth() ,d.getDate(),d.setUTCHours(10), d.setUTCMinutes(30), d.setUTCSeconds(0), d.setUTCMilliseconds(0));\n\t\treturn d;\n\t\t//write code here\n\t},\n\tmyFun2: async () => {\n\t\t//use async-await or promises\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "course tracker_start_date",
+  "deleted": false,
+  "gitSyncId": "634e7e92ce51f22a5bc91b22_63511ad6a53c13263e40e3e4"
+}

@@ -1,0 +1,25 @@
+{
+  "unpublishedCollection": {
+    "name": "get_edit_test_details",
+    "pageId": "School Test Creation",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t\t{{storeValue('cdli',undefined)}};\n\t\t{{get_data_copy.run()}};\n\t\t{{get_cdid.run()}};\n\t\n\t\t{{storeValue('cdli',get_cdid.data.map(u=>u.cd_id))}};\n\t\t\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "School Test Creation_get_edit_test_details",
+  "deleted": false,
+  "gitSyncId": "634e7e92ce51f22a5bc91b22_637385581638e44f086033cb"
+}

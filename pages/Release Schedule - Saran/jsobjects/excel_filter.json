@@ -1,0 +1,25 @@
+{
+  "unpublishedCollection": {
+    "name": "excel_filter",
+    "pageId": "Release Schedule - Saran",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t\t\tlet a = get_test_list.data;\n\t\t\t//console.log(Object.keys(a));\n\t\t\tlet s_id = a.filter(k => {k.school_id == school.selectedOptionValue } );\n\t\t\treturn(s_id);\n\t\t\t//get_test_list.data.filter({{cls.selectedOptionValue.localeCompare()}});\n\t    }\n\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Release Schedule - Saran_excel_filter",
+  "deleted": false,
+  "gitSyncId": "634e7e92ce51f22a5bc91b22_63760e5b1351c74a8ce8decf"
+}
